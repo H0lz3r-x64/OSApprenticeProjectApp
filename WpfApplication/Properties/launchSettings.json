@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "WpfApplication": {
+      "commandName": "Project"
+    }
+  }
+}
