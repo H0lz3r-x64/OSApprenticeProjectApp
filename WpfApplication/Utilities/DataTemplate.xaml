@@ -1,7 +1,9 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:vm="clr-namespace:WpfApplication.ViewModel"
-                    xmlns:view="clr-namespace:WpfApplication.View">
+                    xmlns:vm2="clr-namespace:ExcelLikeDataGrid.ViewModel;assembly=ExcelLikeDataGrid"
+                    xmlns:view="clr-namespace:WpfApplication.View"
+                    xmlns:view2="clr-namespace:ExcelLikeDataGrid.View;assembly=ExcelLikeDataGrid">
 
     <DataTemplate DataType="{x:Type vm:HomeVM}">
         <view:Home />
@@ -23,8 +25,8 @@
         <view:Settings />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:FilterVM}">
-        <view:FilterWindow />
+    <DataTemplate DataType="{x:Type vm2:FilterWindowVM}">
+        <view2:FilterWindow />
     </DataTemplate>
 
 </ResourceDictionary>

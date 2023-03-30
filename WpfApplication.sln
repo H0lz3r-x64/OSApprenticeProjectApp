@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApplication", "WpfApplication\WpfApplication.csproj", "{12F4ED5A-6477-45CF-843B-2A7E3CFD3B31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelLikeDataGrid", "..\ExcelLikeDataGrid\ExcelLikeDataGrid\ExcelLikeDataGrid.csproj", "{B939084A-6935-4A8F-9C98-726FEE527A1C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperExtension", "..\DapperExtension\DapperExtension\DapperExtension.csproj", "{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelLikeDataGrid", "..\ExcelLikeDataGrid\ExcelLikeDataGrid\ExcelLikeDataGrid.csproj", "{A3509701-704F-4CA0-9A7C-E4493D9927AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{12F4ED5A-6477-45CF-843B-2A7E3CFD3B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12F4ED5A-6477-45CF-843B-2A7E3CFD3B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12F4ED5A-6477-45CF-843B-2A7E3CFD3B31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B939084A-6935-4A8F-9C98-726FEE527A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B939084A-6935-4A8F-9C98-726FEE527A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B939084A-6935-4A8F-9C98-726FEE527A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B939084A-6935-4A8F-9C98-726FEE527A1C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3509701-704F-4CA0-9A7C-E4493D9927AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3509701-704F-4CA0-9A7C-E4493D9927AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3509701-704F-4CA0-9A7C-E4493D9927AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3509701-704F-4CA0-9A7C-E4493D9927AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

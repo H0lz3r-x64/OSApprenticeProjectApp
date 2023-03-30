@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:vm="clr-namespace:WpfApplication.ViewModel"
-             xmlns:customcontrols="clr-namespace:WpfApplication.CustomControls"
+             xmlns:dg="clr-namespace:ExcelLikeDataGrid.View;assembly=ExcelLikeDataGrid"
              d:DataContext="{d:DesignInstance Type=vm:MetadataVM}"
              mc:Ignorable="d"
              d:DesignHeight="600"
@@ -20,12 +20,13 @@
             </Grid.RowDefinitions>
 
             <StackPanel VerticalAlignment="Stretch"
-                        Grid.Row="1" Margin="8">
+                        Grid.Row="1"
+                        Margin="8">
 
-                <customcontrols:CustomDataGrid x:Name="datagrid2"
-                                               Background="White"
-                                               Foreground="Black"
-                                               HoverBackground="DarkGreen"/>
+                <dg:CustomDataGrid x:Name="datagrid2"
+                                   Background="White"
+                                   Foreground="Black"
+                                   HoverBackground="DarkGreen" />
 
             </StackPanel>
         </Grid>

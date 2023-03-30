@@ -97,9 +97,12 @@
 
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+	  <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\..\DapperExtension\DapperExtension\DapperExtension.csproj" />
+	  <ProjectReference Include="..\..\ExcelLikeDataGrid\ExcelLikeDataGrid\ExcelLikeDataGrid.csproj" />
 	  <ProjectReference Include="..\..\SplitButton\SplitButton\SplitButton.csproj" />
 	</ItemGroup>
 
