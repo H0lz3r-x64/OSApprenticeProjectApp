@@ -1,0 +1,15 @@
+[submodule "ExcelLikeDataGrid"]
+	path = ExcelLikeDataGrid
+	url = https://github.com/OpticalSolutions-InternalManagement/ExcelLikeDataGrid.git
+[submodule "Resources"]
+	path = Resources
+	url = https://github.com/OpticalSolutions-InternalManagement/Resources.git
+[submodule "DapperExtension-Test"]
+	path = DapperExtension-Test
+	url = https://github.com/OpticalSolutions-InternalManagement/DapperExtension-Test.git
+[submodule "DapperExtension"]
+	path = DapperExtension
+	url = https://github.com/OpticalSolutions-InternalManagement/DapperExtension.git
+[submodule "SplitButton"]
+	path = SplitButton
+	url = https://github.com/OpticalSolutions-InternalManagement/SplitButton.git

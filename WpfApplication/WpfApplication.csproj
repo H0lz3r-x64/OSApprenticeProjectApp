@@ -11,6 +11,7 @@
 		<UseWindowsForms>True</UseWindowsForms>
 		<DebugType>portable</DebugType>
 		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -101,10 +102,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\DapperExtension\DapperExtension\DapperExtension.csproj" />
-	  <ProjectReference Include="..\..\ExcelLikeDataGrid\ExcelLikeDataGrid\ExcelLikeDataGrid.csproj" />
-	  <ProjectReference Include="..\..\SplitButton\SplitButton\SplitButton.csproj" />
+	  <ProjectReference Include="..\DapperExtension\DapperExtension\DapperExtension.csproj" />
+	  <ProjectReference Include="..\ExcelLikeDataGrid\ExcelLikeDataGrid\ExcelLikeDataGrid.csproj" />
+	  <ProjectReference Include="..\SplitButton\SplitButton\SplitButton.csproj" />
 	</ItemGroup>
+
 
 	<ItemGroup>
 	  <Compile Update="Properties\Resources.Designer.cs">

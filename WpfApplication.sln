@@ -5,9 +5,11 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApplication", "WpfApplication\WpfApplication.csproj", "{12F4ED5A-6477-45CF-843B-2A7E3CFD3B31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperExtension", "..\DapperExtension\DapperExtension\DapperExtension.csproj", "{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperExtension", "DapperExtension\DapperExtension\DapperExtension.csproj", "{A90083C5-B80F-4CAE-9282-4BE0792920A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelLikeDataGrid", "..\ExcelLikeDataGrid\ExcelLikeDataGrid\ExcelLikeDataGrid.csproj", "{A3509701-704F-4CA0-9A7C-E4493D9927AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelLikeDataGrid", "ExcelLikeDataGrid\ExcelLikeDataGrid\ExcelLikeDataGrid.csproj", "{02A5430A-D021-49E4-9E28-4F7E774D2F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitButton", "SplitButton\SplitButton\SplitButton.csproj", "{4B4EC2E5-531D-4622-862A-727042983B3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,18 @@ Global
 		{12F4ED5A-6477-45CF-843B-2A7E3CFD3B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12F4ED5A-6477-45CF-843B-2A7E3CFD3B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12F4ED5A-6477-45CF-843B-2A7E3CFD3B31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BFA59DE-FBA6-4B9D-832B-550FA5D3D8AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3509701-704F-4CA0-9A7C-E4493D9927AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3509701-704F-4CA0-9A7C-E4493D9927AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3509701-704F-4CA0-9A7C-E4493D9927AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3509701-704F-4CA0-9A7C-E4493D9927AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90083C5-B80F-4CAE-9282-4BE0792920A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90083C5-B80F-4CAE-9282-4BE0792920A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90083C5-B80F-4CAE-9282-4BE0792920A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90083C5-B80F-4CAE-9282-4BE0792920A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A5430A-D021-49E4-9E28-4F7E774D2F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A5430A-D021-49E4-9E28-4F7E774D2F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A5430A-D021-49E4-9E28-4F7E774D2F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A5430A-D021-49E4-9E28-4F7E774D2F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4EC2E5-531D-4622-862A-727042983B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4EC2E5-531D-4622-862A-727042983B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4EC2E5-531D-4622-862A-727042983B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4EC2E5-531D-4622-862A-727042983B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
